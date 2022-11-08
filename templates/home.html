@@ -4,5 +4,13 @@
 {% block title %}Home{% endblock title %}
 
 {% block content %}
-<p>test</p>
+{% if user.is_authenticated %}
+Welcome to SKEJI, {{ user.username }}!
+<p><a href="{% url 'logout' %}">Log Out</a></p>
+{% else %}
+<p>You are not logged in. Please log in to access your calendar.</p>
+<a href="{% url 'login' %}">Log In</a>
+<a href="{% url 'signup' %}">Sign Up</a>
+{% endif %}
+
 {% endblock content %}
