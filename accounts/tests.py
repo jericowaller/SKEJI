@@ -5,7 +5,7 @@ from django.urls import reverse
 # Create your tests here.
 
 class SignupPageTests(TestCase):
-    def test_url_exsists_at_correct_location_signupview(self):
+    def test_url_exists_at_correct_location_signupview(self):
         response = self.client.get("/accounts/signup/")
         self.assertEqual(response.status_code, 200)
 
