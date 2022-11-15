@@ -5,7 +5,7 @@
 
 {% block content %}
 {% if user.is_authenticated %}
-Welcome to SKEJI, {{ user.username }}!
+<p>Welcome to SKEJI, {{ user.username }}!</p>
 <p><a href="{% url 'logout' %}">Log Out</a></p>
 {% else %}
 <p>You are not logged in. Please log in to access your calendar.</p>
