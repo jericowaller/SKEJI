@@ -12,13 +12,10 @@ urlpatterns = [
     path('accounts/', include("accounts.urls")),
     path('accounts/', include("django.contrib.auth.urls")),
     path("", TemplateView.as_view(template_name="home.html"), name="home"),
-<<<<<<< HEAD
     path('captcha/', include('captcha.urls')),
-]
-=======
+
 
     path('cms/', include(wagtailadmin_urls)),
     path('documents/', include(wagtaildocs_urls)),
-    path('pages/', include(wagtail_urls)),
-] #+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
->>>>>>> bf69f0536ae7f49d3a3ea6d3b6599394307fdf74
+    path('pages/', include(wagtail_urls)),]
+#+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
