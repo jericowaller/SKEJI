@@ -1,0 +1,55 @@
+body {
+	background-color:  #069a8e;
+}
+p {
+	color: #a1e3d8;
+}
+a {
+	color: #f7ff93;
+}
+a:hover {
+	color: #f7ff93;
+}
+h1 {
+	color: #005555;
+}
+h2 {
+	color: #005555;
+}
+.btn {
+	color: #f7ff93;
+	background-color: #005555;
+	border-color: black;
+}
+.btn:hover {
+	color: #005555;
+	border-color: black;
+	background-color: #f7ff93;
+}
+.btn:active {
+	color: #005555;
+	border-color: black;
+	background-color: #f7ff93;
+}
+.d-block {
+	color: #a1e3d8;
+}
+.d-block:hover{
+	color: #f7ff93;
+}
+.d-block:focus {
+	color: #f7ff93;
+}
+.dropdown-menu {
+	background-color: #a1e3d8;
+}
+.dropdown-menu:hover {
+	color: #005555;
+}
+.dropdown-item {
+	color: #005555;
+}
+.dropdown-item:hover {
+	color: #005555;
+	background-color: #f7ff93;
+}
