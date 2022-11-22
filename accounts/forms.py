@@ -1,9 +1,16 @@
 # accounts/forms.py
+from django import forms
 from django.contrib.auth.forms import UserCreationForm, UserChangeForm
+from captcha.fields import CaptchaField
 
 from .models import CustomUser
 
+class CaptchaUserCreationForm(UserCreationForm):
+    captcha = CaptchaField()
+
 class CustomUserCreationForm(UserCreationForm):
+    
+    
     class Meta(UserCreationForm):
         model = CustomUser
         fields = (
@@ -11,7 +18,6 @@ class CustomUserCreationForm(UserCreationForm):
             "email",
             "age",
         )
-        fields = UserCreationForm.Meta.fields + ("age" ,)
 
 
 class CustomUserChangeForm(UserChangeForm):
@@ -22,4 +28,3 @@ class CustomUserChangeForm(UserChangeForm):
             "email",
             "age",
         )
-        fields = UserChangeForm.Meta.fields
