@@ -13,12 +13,12 @@
 </head>
 <body>
   <div class="container">
-    <header class="p-3 mb-3 border-bottom">
+    <header class="p-3 mb-3">
       <div class="container">
         <div class="d-flex flex-wrap align-items-center justify-content-center
           justify-content-lg-start">
-          <a class="navbar-brand" href="{% url 'home' %}">SKEJI</a>
-          <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center
+          <a class="navbar-brand me-lg-auto" href="{% url 'home' %}">SKEJI</a>
+          <ul class="nav col-12 col-lg-auto ms-lg-auto mb-2 justify-content-center
             mb-md-0">
           {% if user.is_authenticated %}
           <div class="dropdown text-end">
@@ -38,7 +38,7 @@
             <a href="{% url 'login' %}" class="btn btn-outline-primary me-2">Log In</a>
             <a href="{% url 'signup' %}" class="btn btn-primary">Sign Up</a>
           </div>
-          {% endif %}        
+          {% endif %}
         </div>
       </div>
     </header>
