@@ -42,7 +42,6 @@ INSTALLED_APPS = [
     'crispy_forms',
     'crispy_bootstrap5',
     'captcha',
-
     'wagtail.contrib.forms',
     'wagtail.contrib.redirects',
     'wagtail.embeds',
@@ -57,7 +56,6 @@ INSTALLED_APPS = [
 
     'modelcluster',
     'taggit',
-
 ]
 
 MIDDLEWARE = [

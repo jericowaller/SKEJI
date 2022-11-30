@@ -18,10 +18,11 @@ def captcha(request):
     else:
         form = CaptchaUserCreationForm()
 
-    #return render(request, 'registration/captcha.html', {'form': form})
+    return render(request, 'registration/signup.html', {'form': form})
 
 class SignUpView(CreateView):
-    form_class = CustomUserCreationForm
+    form_class = CaptchaUserCreationForm
+    #form_class = CustomUserCreationForm
     success_url = reverse_lazy('login')
     template_name = "registration/signup.html"
 
