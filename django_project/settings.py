@@ -41,10 +41,11 @@ INSTALLED_APPS = [
     'accounts.apps.AccountsConfig',
     'crispy_forms',
     'crispy_bootstrap5',
-<<<<<<< HEAD
-    'captcha',
-=======
 
+    'captcha',
+    
+
+    #'wagtail.core.query',
     'wagtail.contrib.forms',
     'wagtail.contrib.redirects',
     'wagtail.embeds',
@@ -56,11 +57,13 @@ INSTALLED_APPS = [
     'wagtail.search',
     'wagtail.admin',
     'wagtail',
+    'ls.joyous',
+    'wagtail.contrib.modeladmin',
 
     'modelcluster',
     'taggit',
     
->>>>>>> bf69f0536ae7f49d3a3ea6d3b6599394307fdf74
+
 ]
 
 MIDDLEWARE = [
