@@ -53,3 +53,34 @@ h2 {
 	color: #005555;
 	background-color: #f7ff93;
 }
+th {
+	border: 2px solid #f7ff93;
+	color: #a1e3d8;
+	padding: 5px;
+}
+td {
+	border: 2px solid #f7ff93;
+	color: #a1e3d8;
+	height: 80px;
+	width: 180px;
+	text-align: left;
+	vertical-align: top;
+}
+table {
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 20px;
+		border: 2px solid #f7ff93;
+		font-family: Verdana, sans-serif;
+		border: 2px solid #f7ff93;
+		caption-side: top;
+}
+caption {
+	color: #005555;
+	text-align: center;
+	font-size: 30px;
+	border: 2px solid #f7ff93;
+}
+.table-content {
+	text-align: center;
+}
