@@ -1,0 +1,86 @@
+body {
+	background-color:  #069a8e;
+}
+p {
+	color: #a1e3d8;
+}
+a {
+	color: #f7ff93;
+}
+a:hover {
+	color: #f7ff93;
+}
+h1 {
+	color: #005555;
+}
+h2 {
+	color: #005555;
+}
+.btn {
+	color: #f7ff93;
+	background-color: #005555;
+	border-color: black;
+}
+.btn:hover {
+	color: #005555;
+	border-color: black;
+	background-color: #f7ff93;
+}
+.btn:active {
+	color: #005555;
+	border-color: black;
+	background-color: #f7ff93;
+}
+.d-block {
+	color: #a1e3d8;
+}
+.d-block:hover{
+	color: #f7ff93;
+}
+.d-block:focus {
+	color: #f7ff93;
+}
+.dropdown-menu {
+	background-color: #a1e3d8;
+}
+.dropdown-menu:hover {
+	color: #005555;
+}
+.dropdown-item {
+	color: #005555;
+}
+.dropdown-item:hover {
+	color: #005555;
+	background-color: #f7ff93;
+}
+th {
+	border: 2px solid #f7ff93;
+	color: #a1e3d8;
+	padding: 5px;
+}
+td {
+	border: 2px solid #f7ff93;
+	color: #a1e3d8;
+	height: 80px;
+	width: 180px;
+	text-align: left;
+	vertical-align: top;
+}
+table {
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 20px;
+		border: 2px solid #f7ff93;
+		font-family: Verdana, sans-serif;
+		border: 2px solid #f7ff93;
+		caption-side: top;
+}
+caption {
+	color: #005555;
+	text-align: center;
+	font-size: 30px;
+	border: 2px solid #f7ff93;
+}
+.table-content {
+	text-align: center;
+}
